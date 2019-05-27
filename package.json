@@ -1,0 +1,27 @@
+{
+  "name": "basti",
+  "version": "1.0.0",
+  "description": "miniapps3",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "watch": "./node_modules/.bin/babel client --out-dir public --presets @babel/preset-react --source-maps inline --watch"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "jquery": "^2.2.1",
+    "lodash": "^4.6.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-react": "^7.0.0",
+    "chai": "^3.5.0",
+    "express": "^4.16.4",
+    "mocha": "2.3.3",
+    "nodemon": "^1.18.10",
+    "sinon": "1.17.3"
+  }
+}
